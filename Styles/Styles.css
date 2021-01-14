@@ -1,0 +1,147 @@
+@media only screen  and (max-device-width:400px){
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   #MainSections{
+       padding: 1%;
+       margin: 1%;
+   }
+    
+.MainSections{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(130, 152, 230);
+    color:black;
+    width: 100%;
+    margin: 3%;
+    justify-content: space-between;
+    padding: 1%;
+}
+table{
+    margin: 1%;
+    padding: 1%;
+    width: 50%;
+    border-color: black;
+    border-style: solid;
+}
+#MainNav{
+    display: flex;
+    flex-direction: row;
+}
+.MainNav{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(98, 226, 98);
+    justify-content: space-between;
+}
+.MainNav{
+    flex-wrap: nowrap;
+    width: 10em;
+    height: 3em;
+    margin: 1%;
+}
+h1{
+    text-align: center;
+    background-color: rgb(177, 226, 0);
+    padding: 3%;
+    margin: 0%;
+}
+.homeimg,.contactimg,.srilankanimg,.typesimg{
+ width:100%;
+ height: auto;
+}
+footer{
+    background-color:rgb(71, 231, 157) ;
+    padding: 1%;
+}
+}
+@media only screen and (min-device-width:800px){
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #MainSections{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    justify-content: space-between;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(132, 209, 16);
+    color: black;
+    border: black;
+}
+.homeimg, .contactimg, .srilankanimg, .typesimg{
+    width:100%;
+    height: auto;  
+}
+
+.MainNav:hover{
+    transform: scale(1.25); 
+}
+#MainNav{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(209, 206, 206);
+}
+.MainNav{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(15, 199, 15);
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+.MainNav{
+
+    flex-wrap: nowrap;
+    width: 10em;
+    height: 3em;
+    margin-right: 1%;
+  
+}
+
+
+h1{
+    text-align: center;
+    background-color: rgb(177, 226, 0);
+    padding: 3%;
+    margin: 0%;
+}
+.MainSections{
+    background-color: rgb(209, 206, 206);
+    margin: 1%;
+    padding: 1%;
+}
+
+.homeimg2{
+    width: 50%;
+    height: auto;
+}
+#Home2{
+    background-color:rgb(132, 209, 16);
+    padding: 0.5%;
+    margin: 1%;
+}
+.Home2{
+    background-color:rgb(209, 206, 206);
+    margin: 1%;
+    padding: 1%;
+}
+#Home3{
+    background-color:rgb(132, 209, 16);
+    padding: 0.5%;
+    margin: 1%;
+}
+.Home3{
+    background-color:rgb(209, 206, 206) ;
+    margin: 1%;
+    padding: 1%;
+}
+.srilankanimg{
+    width: 50%;
+    height: auto;
+}
+footer{
+    background-color:rgb(71, 231, 157) ;
+    padding: 1%;
+}
+}
