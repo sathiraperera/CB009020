@@ -1,0 +1,31 @@
+{
+    "Product":"Bags",
+    "Price":"1000",
+    "Size":[
+        {"small":"0"},
+        {"medium":"2500"},
+        {"large":"5000"}
+    ]
+}
+
+
+
+
+{
+    "Product":"soap",
+    "Price":"800",
+    "Size":[
+        {"small":"0"},
+        {"medium":"2500"},
+        {"large":"5000"}
+    ]
+}
+{
+    "Product":"Plates",
+    "Price":"2500",
+    "Size":[
+        {"small":"0"},
+        {"medium":"2500"},
+        {"large":"5000"}
+    ]
+}
