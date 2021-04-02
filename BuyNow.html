@@ -1,5 +1,14 @@
 <html>
     <title>BuyNow</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_package_v0.16 (1)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_package_v0.16 (1)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="Images/favicon_package_v0.16 (1)/favicon-16x16.png">
+<link rel="manifest" href="manifest.json">
+<link rel="mask-icon" href="Images/favicon_package_v0.16 (1)/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#eb932b">
+        <link rel="stylesheet" href="Styles/Styles.css">
+        <link rel="stylesheet" href="Styles/Normalize.css">
     <head><h1>Buy Now!!!!!</h1></head>
     <body>
         <form>
@@ -31,31 +40,57 @@
                 <option>No</option>
             </select>
         </fieldset>
+        
             <br>
             <br>
+
             <fieldset>
                 <legend>Order Details</legend>
-            <label>Product</label>
-            <p>Stainless-Steel Straws</p> 
-            <input type="checkbox" name="straws" id="straws">
-            <label>Qty</label>
-            <input type="number" name="strawsqty" id="strawsqty" size="5" maxlength="5">
-            <p>Toothbrush</p>  
-            <input type="checkbox" name="toothbrush"    id="toothbrush">  
-            <label>Qty</label>
-            <input type="number" name="toothbrushqty" id="toothbrushqty" size="5" maxlength="5">
-            <p>Bags</p>            
-            <input type="checkbox" name="bags" id="bags">
-            <label>Qty</label>
-            <input type="number" name="bagsqty" id="bagsqty" size="5" maxlength="5">
-            <p>Paper</p>
-            <input type="checkbox" name="paper" id="paper">
-            <label>Qty</label>
-            <input type="number" name="paperqty" id="paperqty" size="5" maxlength="5">
-                     
+            <label>Stores</label>
+            <label for="listofstores">Choose the store:</label>
+            <select name="stores" id="stores">
+                <option value="ecoproducts">Eco-Products SL</option>
+                <option value="ecoware lanka">Ecoware Lanka</option>
+                <option value="Trickledown">Trickledown</option>
+                <option value="backtoearth">BackToEarth</option>
+            </select>
+            
+            <br><br>
+
+            <label for="size">Choose the size:</label>
+            <select name="sizes" id="sizes">
+                <option id="small" value="small">Small</option>
+                <option id="medium" value="medium">Medium</option>
+                <option id="large" value="large">Large</option>
+            </select>
+            
+            <section>
+                <input type="checkbox" id="bags">
+                <label>Bags</label>
+                <br>
+                <input type="checkbox" id="soap">
+                <label>Soap</label>
+                <br>
+                <input type="checkbox" id="plates">
+                <label>Plates</label>
+                <br>
+                <input type="checkbox" id="mugs">
+                <label>Mugs</label>
+                <br>
+                <textarea id="output"></textarea>
+               
+            </section>
+            
+                <button type="button" id="add">Add to order</button>
+                <button type="button" id="addfav">Add to Favorites</button>
+                <button type="button" id="displayfav">Display Favorites</button>
+
+            
+            <br>
             <br>
             <br>
         </fieldset>
         </form>
+        <script src="Scripts/main.js"></script>
     </body>
 </html>
